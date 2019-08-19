@@ -10,7 +10,7 @@ node {
     stage('Build image') {
         /* This builds the actual image */
 
-        app = docker.build("prasad12345/figlet_ubuntu:1.0")
+        app = docker.build("prasad12345 / nodeapp")
     }
 
     stage('Test image') {
